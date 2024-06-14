@@ -1,0 +1,27 @@
+PODS:
+  - FPSView (0.0.14)
+  - Masonry (1.1.0)
+  - YPPCube (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - FPSView
+  - YPPCube (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FPSView
+    - Masonry
+
+EXTERNAL SOURCES:
+  YPPCube:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FPSView: 83d71e283e2fa9f626305510aa412203056dcbcb
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YPPCube: c502319010b20f981b2e6b1458aaa60ef424311e
+
+PODFILE CHECKSUM: 86fd998e19c16bb42f1f814aad924abb3a41cfc6
+
+COCOAPODS: 1.15.2

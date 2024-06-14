@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-YPPCubeDemo/Pods-YPPCubeDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FPSView/FPSView.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/YPPCube/YPPCube.framework

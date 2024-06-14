@@ -1,0 +1,27 @@
+{
+  "name": "YPPCube",
+  "version": "0.1.0",
+  "summary": "A short description of YPPCube.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://git.yupaopao.com/terminal/ios/component/YPPCube.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YPPCube": "493396157@qq.com"
+  },
+  "source": {
+    "git": "http://git.yupaopao.com/terminal/ios/component/YPPCube.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Pods/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}
