@@ -3,29 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		788210DB27C7818D00869AFF /* LGTopicAvatarCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 788210D727C7818C00869AFF /* LGTopicAvatarCube.m */; };
-		788210DC27C7818D00869AFF /* LGTopicCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 788210D827C7818C00869AFF /* LGTopicCube.m */; };
-		788210E327C7819700869AFF /* LGFeedEmojiCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 788210DF27C7819700869AFF /* LGFeedEmojiCube.m */; };
-		788210E427C7819700869AFF /* LGFeedAvatarCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 788210E127C7819700869AFF /* LGFeedAvatarCube.m */; };
-		788210E527C7819700869AFF /* LGFeedCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 788210E227C7819700869AFF /* LGFeedCube.m */; };
-		788210EC27C781A600869AFF /* LGLiveCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 788210E627C781A600869AFF /* LGLiveCube.m */; };
+		28C545F62C1C83D30021AA71 /* LGVGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C545F52C1C83D30021AA71 /* LGVGroupController.m */; };
+		28C545FA2C1D37A80021AA71 /* LGVGroupAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C545F92C1D37A80021AA71 /* LGVGroupAxis.m */; };
+		28C545FF2C1FD3EF0021AA71 /* LGHGroupAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C545FE2C1FD3EF0021AA71 /* LGHGroupAxis.m */; };
+		28C546022C1FD4140021AA71 /* LGHGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C546012C1FD4140021AA71 /* LGHGroupController.m */; };
+		28C546062C1FDC0D0021AA71 /* LGZGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C546052C1FDC0D0021AA71 /* LGZGroupController.m */; };
+		28C546092C1FDC370021AA71 /* LGZGroupAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C546082C1FDC370021AA71 /* LGZGroupAxis.m */; };
+		28C5460D2C1FDFC70021AA71 /* LGComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C5460C2C1FDFC70021AA71 /* LGComposeController.m */; };
+		28C546102C1FE11D0021AA71 /* LGComposeCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C5460F2C1FE11D0021AA71 /* LGComposeCube.m */; };
+		28C546132C1FE1370021AA71 /* LGComposeAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C546122C1FE1370021AA71 /* LGComposeAxis.m */; };
+		28C546162C1FE5BA0021AA71 /* LGHeaderCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C546152C1FE5BA0021AA71 /* LGHeaderCube.m */; };
+		28C546192C1FE7E00021AA71 /* LGSeatCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C546182C1FE7E00021AA71 /* LGSeatCube.m */; };
+		28C5461C2C1FE8260021AA71 /* LGMiddleCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C5461B2C1FE8260021AA71 /* LGMiddleCube.m */; };
+		28C5461F2C1FE83E0021AA71 /* LGChatCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C5461E2C1FE83E0021AA71 /* LGChatCube.m */; };
+		28C546222C1FE8660021AA71 /* LGSiderCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C546212C1FE8660021AA71 /* LGSiderCube.m */; };
+		28C546252C1FE8870021AA71 /* LGInputCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C546242C1FE8870021AA71 /* LGInputCube.m */; };
+		28C546282C1FF7B50021AA71 /* LGLayerCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C546272C1FF7B50021AA71 /* LGLayerCube.m */; };
+		28C5462B2C1FF8AF0021AA71 /* LGInputPresentCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C5462A2C1FF8AF0021AA71 /* LGInputPresentCube.m */; };
+		28C5462E2C2002280021AA71 /* LGEventBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C5462D2C2002280021AA71 /* LGEventBus.m */; };
 		788210ED27C781A600869AFF /* LGLiveStreamCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 788210E727C781A600869AFF /* LGLiveStreamCube.m */; };
 		788210EE27C781A600869AFF /* LGLiveCoverCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 788210EA27C781A600869AFF /* LGLiveCoverCube.m */; };
 		788210F227C781D400869AFF /* LGTextCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 788210F127C781D400869AFF /* LGTextCube.m */; };
-		788210F627C7823000869AFF /* LGCubeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 788210F527C7823000869AFF /* LGCubeCell.m */; };
-		788210F927C783A800869AFF /* LGCubeCellRenderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 788210F827C783A700869AFF /* LGCubeCellRenderModel.m */; };
-		788210FC27C7881000869AFF /* LGTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 788210FB27C7881000869AFF /* LGTopicCell.m */; };
-		788210FF27C78A5400869AFF /* LGFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 788210FE27C78A5400869AFF /* LGFeedCell.m */; };
-		7882110227C78A6400869AFF /* LGLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7882110127C78A6400869AFF /* LGLiveCell.m */; };
-		7882110627C78AA500869AFF /* LGTableVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 7882110527C78AA500869AFF /* LGTableVM.m */; };
-		7882110927C78ABB00869AFF /* LGCellVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 7882110827C78ABB00869AFF /* LGCellVM.m */; };
-		7882110C27C78EA700869AFF /* LGFeedCellVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 7882110B27C78EA700869AFF /* LGFeedCellVM.m */; };
-		7882110F27C78F0900869AFF /* LGTopicCellVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 7882110E27C78F0900869AFF /* LGTopicCellVM.m */; };
-		7882111227C79C9200869AFF /* LGLiveCellVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 7882111127C79C9200869AFF /* LGLiveCellVM.m */; };
 		78E921C026DF26E900B87EA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E921BF26DF26E900B87EA1 /* AppDelegate.m */; };
 		78E921C626DF26E900B87EA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E921C526DF26E900B87EA1 /* ViewController.m */; };
 		78E921CB26DF26ED00B87EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E921CA26DF26ED00B87EA1 /* Assets.xcassets */; };
@@ -35,46 +37,50 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28C545F42C1C83D30021AA71 /* LGVGroupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGVGroupController.h; sourceTree = "<group>"; };
+		28C545F52C1C83D30021AA71 /* LGVGroupController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGVGroupController.m; sourceTree = "<group>"; };
+		28C545F82C1D37A80021AA71 /* LGVGroupAxis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGVGroupAxis.h; sourceTree = "<group>"; };
+		28C545F92C1D37A80021AA71 /* LGVGroupAxis.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGVGroupAxis.m; sourceTree = "<group>"; };
+		28C545FD2C1FD3EF0021AA71 /* LGHGroupAxis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHGroupAxis.h; sourceTree = "<group>"; };
+		28C545FE2C1FD3EF0021AA71 /* LGHGroupAxis.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHGroupAxis.m; sourceTree = "<group>"; };
+		28C546002C1FD4140021AA71 /* LGHGroupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHGroupController.h; sourceTree = "<group>"; };
+		28C546012C1FD4140021AA71 /* LGHGroupController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHGroupController.m; sourceTree = "<group>"; };
+		28C546042C1FDC0D0021AA71 /* LGZGroupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGZGroupController.h; sourceTree = "<group>"; };
+		28C546052C1FDC0D0021AA71 /* LGZGroupController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGZGroupController.m; sourceTree = "<group>"; };
+		28C546072C1FDC370021AA71 /* LGZGroupAxis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGZGroupAxis.h; sourceTree = "<group>"; };
+		28C546082C1FDC370021AA71 /* LGZGroupAxis.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGZGroupAxis.m; sourceTree = "<group>"; };
+		28C5460B2C1FDFC70021AA71 /* LGComposeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGComposeController.h; sourceTree = "<group>"; };
+		28C5460C2C1FDFC70021AA71 /* LGComposeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGComposeController.m; sourceTree = "<group>"; };
+		28C5460E2C1FE11D0021AA71 /* LGComposeCube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGComposeCube.h; sourceTree = "<group>"; };
+		28C5460F2C1FE11D0021AA71 /* LGComposeCube.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGComposeCube.m; sourceTree = "<group>"; };
+		28C546112C1FE1370021AA71 /* LGComposeAxis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGComposeAxis.h; sourceTree = "<group>"; };
+		28C546122C1FE1370021AA71 /* LGComposeAxis.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGComposeAxis.m; sourceTree = "<group>"; };
+		28C546142C1FE5BA0021AA71 /* LGHeaderCube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHeaderCube.h; sourceTree = "<group>"; };
+		28C546152C1FE5BA0021AA71 /* LGHeaderCube.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHeaderCube.m; sourceTree = "<group>"; };
+		28C546172C1FE7E00021AA71 /* LGSeatCube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSeatCube.h; sourceTree = "<group>"; };
+		28C546182C1FE7E00021AA71 /* LGSeatCube.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSeatCube.m; sourceTree = "<group>"; };
+		28C5461A2C1FE8260021AA71 /* LGMiddleCube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGMiddleCube.h; sourceTree = "<group>"; };
+		28C5461B2C1FE8260021AA71 /* LGMiddleCube.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGMiddleCube.m; sourceTree = "<group>"; };
+		28C5461D2C1FE83E0021AA71 /* LGChatCube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGChatCube.h; sourceTree = "<group>"; };
+		28C5461E2C1FE83E0021AA71 /* LGChatCube.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGChatCube.m; sourceTree = "<group>"; };
+		28C546202C1FE8660021AA71 /* LGSiderCube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSiderCube.h; sourceTree = "<group>"; };
+		28C546212C1FE8660021AA71 /* LGSiderCube.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSiderCube.m; sourceTree = "<group>"; };
+		28C546232C1FE8870021AA71 /* LGInputCube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGInputCube.h; sourceTree = "<group>"; };
+		28C546242C1FE8870021AA71 /* LGInputCube.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGInputCube.m; sourceTree = "<group>"; };
+		28C546262C1FF7B50021AA71 /* LGLayerCube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGLayerCube.h; sourceTree = "<group>"; };
+		28C546272C1FF7B50021AA71 /* LGLayerCube.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLayerCube.m; sourceTree = "<group>"; };
+		28C546292C1FF8AF0021AA71 /* LGInputPresentCube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGInputPresentCube.h; sourceTree = "<group>"; };
+		28C5462A2C1FF8AF0021AA71 /* LGInputPresentCube.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGInputPresentCube.m; sourceTree = "<group>"; };
+		28C5462C2C2002280021AA71 /* LGEventBus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGEventBus.h; sourceTree = "<group>"; };
+		28C5462D2C2002280021AA71 /* LGEventBus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGEventBus.m; sourceTree = "<group>"; };
 		5019C3EB9D524FED18C2B72C /* Pods_YPPCubeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPPCubeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		659A5DE30988E827A33EE6CC /* Pods-YPPCubeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPPCubeDemo.debug.xcconfig"; path = "Target Support Files/Pods-YPPCubeDemo/Pods-YPPCubeDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		788210D727C7818C00869AFF /* LGTopicAvatarCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGTopicAvatarCube.m; sourceTree = "<group>"; };
-		788210D827C7818C00869AFF /* LGTopicCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGTopicCube.m; sourceTree = "<group>"; };
-		788210D927C7818C00869AFF /* LGTopicCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGTopicCube.h; sourceTree = "<group>"; };
-		788210DA27C7818D00869AFF /* LGTopicAvatarCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGTopicAvatarCube.h; sourceTree = "<group>"; };
-		788210DD27C7819700869AFF /* LGFeedAvatarCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFeedAvatarCube.h; sourceTree = "<group>"; };
-		788210DE27C7819700869AFF /* LGFeedEmojiCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFeedEmojiCube.h; sourceTree = "<group>"; };
-		788210DF27C7819700869AFF /* LGFeedEmojiCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFeedEmojiCube.m; sourceTree = "<group>"; };
-		788210E027C7819700869AFF /* LGFeedCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFeedCube.h; sourceTree = "<group>"; };
-		788210E127C7819700869AFF /* LGFeedAvatarCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFeedAvatarCube.m; sourceTree = "<group>"; };
-		788210E227C7819700869AFF /* LGFeedCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFeedCube.m; sourceTree = "<group>"; };
-		788210E627C781A600869AFF /* LGLiveCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLiveCube.m; sourceTree = "<group>"; };
 		788210E727C781A600869AFF /* LGLiveStreamCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLiveStreamCube.m; sourceTree = "<group>"; };
-		788210E827C781A600869AFF /* LGLiveCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLiveCube.h; sourceTree = "<group>"; };
 		788210E927C781A600869AFF /* LGLiveCoverCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLiveCoverCube.h; sourceTree = "<group>"; };
 		788210EA27C781A600869AFF /* LGLiveCoverCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLiveCoverCube.m; sourceTree = "<group>"; };
 		788210EB27C781A600869AFF /* LGLiveStreamCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLiveStreamCube.h; sourceTree = "<group>"; };
 		788210F027C781D400869AFF /* LGTextCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGTextCube.h; sourceTree = "<group>"; };
 		788210F127C781D400869AFF /* LGTextCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGTextCube.m; sourceTree = "<group>"; };
-		788210F427C7823000869AFF /* LGCubeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGCubeCell.h; sourceTree = "<group>"; };
-		788210F527C7823000869AFF /* LGCubeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGCubeCell.m; sourceTree = "<group>"; };
-		788210F727C783A700869AFF /* LGCubeCellRenderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGCubeCellRenderModel.h; sourceTree = "<group>"; };
-		788210F827C783A700869AFF /* LGCubeCellRenderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGCubeCellRenderModel.m; sourceTree = "<group>"; };
-		788210FA27C7881000869AFF /* LGTopicCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTopicCell.h; sourceTree = "<group>"; };
-		788210FB27C7881000869AFF /* LGTopicCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTopicCell.m; sourceTree = "<group>"; };
-		788210FD27C78A5400869AFF /* LGFeedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGFeedCell.h; sourceTree = "<group>"; };
-		788210FE27C78A5400869AFF /* LGFeedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGFeedCell.m; sourceTree = "<group>"; };
-		7882110027C78A6400869AFF /* LGLiveCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGLiveCell.h; sourceTree = "<group>"; };
-		7882110127C78A6400869AFF /* LGLiveCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLiveCell.m; sourceTree = "<group>"; };
-		7882110427C78AA500869AFF /* LGTableVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTableVM.h; sourceTree = "<group>"; };
-		7882110527C78AA500869AFF /* LGTableVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTableVM.m; sourceTree = "<group>"; };
-		7882110727C78ABB00869AFF /* LGCellVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGCellVM.h; sourceTree = "<group>"; };
-		7882110827C78ABB00869AFF /* LGCellVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGCellVM.m; sourceTree = "<group>"; };
-		7882110A27C78EA700869AFF /* LGFeedCellVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGFeedCellVM.h; sourceTree = "<group>"; };
-		7882110B27C78EA700869AFF /* LGFeedCellVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGFeedCellVM.m; sourceTree = "<group>"; };
-		7882110D27C78F0900869AFF /* LGTopicCellVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTopicCellVM.h; sourceTree = "<group>"; };
-		7882110E27C78F0900869AFF /* LGTopicCellVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTopicCellVM.m; sourceTree = "<group>"; };
-		7882111027C79C9200869AFF /* LGLiveCellVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGLiveCellVM.h; sourceTree = "<group>"; };
-		7882111127C79C9200869AFF /* LGLiveCellVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLiveCellVM.m; sourceTree = "<group>"; };
 		78E921BB26DF26E900B87EA1 /* YPPCubeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPPCubeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E921BE26DF26E900B87EA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78E921BF26DF26E900B87EA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,84 +114,81 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		788210D427C77D7D00869AFF /* Live */ = {
+		28C545F72C1D365D0021AA71 /* VGroupDemo */ = {
+			isa = PBXGroup;
+			children = (
+				28C545F42C1C83D30021AA71 /* LGVGroupController.h */,
+				28C545F52C1C83D30021AA71 /* LGVGroupController.m */,
+				28C545F82C1D37A80021AA71 /* LGVGroupAxis.h */,
+				28C545F92C1D37A80021AA71 /* LGVGroupAxis.m */,
+			);
+			path = VGroupDemo;
+			sourceTree = "<group>";
+		};
+		28C545FB2C1D3B070021AA71 /* Cubes */ = {
 			isa = PBXGroup;
 			children = (
 				788210E927C781A600869AFF /* LGLiveCoverCube.h */,
 				788210EA27C781A600869AFF /* LGLiveCoverCube.m */,
-				788210E827C781A600869AFF /* LGLiveCube.h */,
-				788210E627C781A600869AFF /* LGLiveCube.m */,
 				788210EB27C781A600869AFF /* LGLiveStreamCube.h */,
 				788210E727C781A600869AFF /* LGLiveStreamCube.m */,
-				7882110027C78A6400869AFF /* LGLiveCell.h */,
-				7882110127C78A6400869AFF /* LGLiveCell.m */,
-			);
-			path = Live;
-			sourceTree = "<group>";
-		};
-		788210D527C77D8600869AFF /* Feed */ = {
-			isa = PBXGroup;
-			children = (
-				788210DD27C7819700869AFF /* LGFeedAvatarCube.h */,
-				788210E127C7819700869AFF /* LGFeedAvatarCube.m */,
-				788210E027C7819700869AFF /* LGFeedCube.h */,
-				788210E227C7819700869AFF /* LGFeedCube.m */,
-				788210DE27C7819700869AFF /* LGFeedEmojiCube.h */,
-				788210DF27C7819700869AFF /* LGFeedEmojiCube.m */,
-				788210FD27C78A5400869AFF /* LGFeedCell.h */,
-				788210FE27C78A5400869AFF /* LGFeedCell.m */,
-			);
-			path = Feed;
-			sourceTree = "<group>";
-		};
-		788210D627C77D8E00869AFF /* Topic */ = {
-			isa = PBXGroup;
-			children = (
-				788210DA27C7818D00869AFF /* LGTopicAvatarCube.h */,
-				788210FB27C7881000869AFF /* LGTopicCell.m */,
-				788210D727C7818C00869AFF /* LGTopicAvatarCube.m */,
-				788210D927C7818C00869AFF /* LGTopicCube.h */,
-				788210D827C7818C00869AFF /* LGTopicCube.m */,
-				788210FA27C7881000869AFF /* LGTopicCell.h */,
-			);
-			path = Topic;
-			sourceTree = "<group>";
-		};
-		788210EF27C781AD00869AFF /* Public */ = {
-			isa = PBXGroup;
-			children = (
 				788210F027C781D400869AFF /* LGTextCube.h */,
 				788210F127C781D400869AFF /* LGTextCube.m */,
+				28C546142C1FE5BA0021AA71 /* LGHeaderCube.h */,
+				28C546152C1FE5BA0021AA71 /* LGHeaderCube.m */,
+				28C546172C1FE7E00021AA71 /* LGSeatCube.h */,
+				28C546182C1FE7E00021AA71 /* LGSeatCube.m */,
+				28C5461A2C1FE8260021AA71 /* LGMiddleCube.h */,
+				28C5461B2C1FE8260021AA71 /* LGMiddleCube.m */,
+				28C5461D2C1FE83E0021AA71 /* LGChatCube.h */,
+				28C5461E2C1FE83E0021AA71 /* LGChatCube.m */,
+				28C546202C1FE8660021AA71 /* LGSiderCube.h */,
+				28C546212C1FE8660021AA71 /* LGSiderCube.m */,
+				28C546232C1FE8870021AA71 /* LGInputCube.h */,
+				28C546242C1FE8870021AA71 /* LGInputCube.m */,
+				28C546292C1FF8AF0021AA71 /* LGInputPresentCube.h */,
+				28C5462A2C1FF8AF0021AA71 /* LGInputPresentCube.m */,
 			);
-			path = Public;
+			path = Cubes;
 			sourceTree = "<group>";
 		};
-		788210F327C7820F00869AFF /* Cell */ = {
+		28C545FC2C1FD3C00021AA71 /* HGroupDemo */ = {
 			isa = PBXGroup;
 			children = (
-				788210F427C7823000869AFF /* LGCubeCell.h */,
-				788210F527C7823000869AFF /* LGCubeCell.m */,
-				788210F727C783A700869AFF /* LGCubeCellRenderModel.h */,
-				788210F827C783A700869AFF /* LGCubeCellRenderModel.m */,
+				28C545FD2C1FD3EF0021AA71 /* LGHGroupAxis.h */,
+				28C545FE2C1FD3EF0021AA71 /* LGHGroupAxis.m */,
+				28C546002C1FD4140021AA71 /* LGHGroupController.h */,
+				28C546012C1FD4140021AA71 /* LGHGroupController.m */,
 			);
-			path = Cell;
+			path = HGroupDemo;
 			sourceTree = "<group>";
 		};
-		7882110327C78A8A00869AFF /* VM */ = {
+		28C546032C1FD6140021AA71 /* ZGroupDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7882110427C78AA500869AFF /* LGTableVM.h */,
-				7882110527C78AA500869AFF /* LGTableVM.m */,
-				7882110727C78ABB00869AFF /* LGCellVM.h */,
-				7882110827C78ABB00869AFF /* LGCellVM.m */,
-				7882110A27C78EA700869AFF /* LGFeedCellVM.h */,
-				7882110B27C78EA700869AFF /* LGFeedCellVM.m */,
-				7882110D27C78F0900869AFF /* LGTopicCellVM.h */,
-				7882110E27C78F0900869AFF /* LGTopicCellVM.m */,
-				7882111027C79C9200869AFF /* LGLiveCellVM.h */,
-				7882111127C79C9200869AFF /* LGLiveCellVM.m */,
+				28C546042C1FDC0D0021AA71 /* LGZGroupController.h */,
+				28C546052C1FDC0D0021AA71 /* LGZGroupController.m */,
+				28C546072C1FDC370021AA71 /* LGZGroupAxis.h */,
+				28C546082C1FDC370021AA71 /* LGZGroupAxis.m */,
 			);
-			path = VM;
+			path = ZGroupDemo;
+			sourceTree = "<group>";
+		};
+		28C5460A2C1FDF8B0021AA71 /* ComposeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				28C546262C1FF7B50021AA71 /* LGLayerCube.h */,
+				28C546272C1FF7B50021AA71 /* LGLayerCube.m */,
+				28C5460B2C1FDFC70021AA71 /* LGComposeController.h */,
+				28C5460C2C1FDFC70021AA71 /* LGComposeController.m */,
+				28C546112C1FE1370021AA71 /* LGComposeAxis.h */,
+				28C546122C1FE1370021AA71 /* LGComposeAxis.m */,
+				28C5460E2C1FE11D0021AA71 /* LGComposeCube.h */,
+				28C5460F2C1FE11D0021AA71 /* LGComposeCube.m */,
+				28C5462C2C2002280021AA71 /* LGEventBus.h */,
+				28C5462D2C2002280021AA71 /* LGEventBus.m */,
+			);
+			path = ComposeDemo;
 			sourceTree = "<group>";
 		};
 		78E921B226DF26E900B87EA1 = {
@@ -209,16 +212,15 @@
 		78E921BD26DF26E900B87EA1 /* YPPCubeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				28C545FB2C1D3B070021AA71 /* Cubes */,
 				78E921BE26DF26E900B87EA1 /* AppDelegate.h */,
 				78E921BF26DF26E900B87EA1 /* AppDelegate.m */,
 				78E921C426DF26E900B87EA1 /* ViewController.h */,
 				78E921C526DF26E900B87EA1 /* ViewController.m */,
-				7882110327C78A8A00869AFF /* VM */,
-				788210F327C7820F00869AFF /* Cell */,
-				788210EF27C781AD00869AFF /* Public */,
-				788210D627C77D8E00869AFF /* Topic */,
-				788210D527C77D8600869AFF /* Feed */,
-				788210D427C77D7D00869AFF /* Live */,
+				28C5460A2C1FDF8B0021AA71 /* ComposeDemo */,
+				28C546032C1FD6140021AA71 /* ZGroupDemo */,
+				28C545FC2C1FD3C00021AA71 /* HGroupDemo */,
+				28C545F72C1D365D0021AA71 /* VGroupDemo */,
 				78E921CA26DF26ED00B87EA1 /* Assets.xcassets */,
 				78E921CC26DF26ED00B87EA1 /* LaunchScreen.storyboard */,
 				78E921CF26DF26ED00B87EA1 /* Info.plist */,
@@ -347,28 +349,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C546092C1FDC370021AA71 /* LGZGroupAxis.m in Sources */,
+				28C546062C1FDC0D0021AA71 /* LGZGroupController.m in Sources */,
+				28C546192C1FE7E00021AA71 /* LGSeatCube.m in Sources */,
 				78E921C626DF26E900B87EA1 /* ViewController.m in Sources */,
-				788210E427C7819700869AFF /* LGFeedAvatarCube.m in Sources */,
-				788210DC27C7818D00869AFF /* LGTopicCube.m in Sources */,
-				788210F627C7823000869AFF /* LGCubeCell.m in Sources */,
+				28C546162C1FE5BA0021AA71 /* LGHeaderCube.m in Sources */,
+				28C5461C2C1FE8260021AA71 /* LGMiddleCube.m in Sources */,
 				788210ED27C781A600869AFF /* LGLiveStreamCube.m in Sources */,
-				7882110227C78A6400869AFF /* LGLiveCell.m in Sources */,
-				788210E327C7819700869AFF /* LGFeedEmojiCube.m in Sources */,
-				7882110F27C78F0900869AFF /* LGTopicCellVM.m in Sources */,
-				7882110C27C78EA700869AFF /* LGFeedCellVM.m in Sources */,
+				28C545F62C1C83D30021AA71 /* LGVGroupController.m in Sources */,
+				28C546132C1FE1370021AA71 /* LGComposeAxis.m in Sources */,
+				28C5460D2C1FDFC70021AA71 /* LGComposeController.m in Sources */,
 				788210EE27C781A600869AFF /* LGLiveCoverCube.m in Sources */,
-				7882110927C78ABB00869AFF /* LGCellVM.m in Sources */,
-				788210FC27C7881000869AFF /* LGTopicCell.m in Sources */,
+				28C545FA2C1D37A80021AA71 /* LGVGroupAxis.m in Sources */,
+				28C5462B2C1FF8AF0021AA71 /* LGInputPresentCube.m in Sources */,
+				28C545FF2C1FD3EF0021AA71 /* LGHGroupAxis.m in Sources */,
 				788210F227C781D400869AFF /* LGTextCube.m in Sources */,
-				788210EC27C781A600869AFF /* LGLiveCube.m in Sources */,
 				78E921C026DF26E900B87EA1 /* AppDelegate.m in Sources */,
-				788210E527C7819700869AFF /* LGFeedCube.m in Sources */,
-				788210F927C783A800869AFF /* LGCubeCellRenderModel.m in Sources */,
-				788210DB27C7818D00869AFF /* LGTopicAvatarCube.m in Sources */,
-				788210FF27C78A5400869AFF /* LGFeedCell.m in Sources */,
-				7882110627C78AA500869AFF /* LGTableVM.m in Sources */,
+				28C5461F2C1FE83E0021AA71 /* LGChatCube.m in Sources */,
+				28C546252C1FE8870021AA71 /* LGInputCube.m in Sources */,
+				28C546282C1FF7B50021AA71 /* LGLayerCube.m in Sources */,
+				28C546222C1FE8660021AA71 /* LGSiderCube.m in Sources */,
+				28C546102C1FE11D0021AA71 /* LGComposeCube.m in Sources */,
 				78E921D126DF26ED00B87EA1 /* main.m in Sources */,
-				7882111227C79C9200869AFF /* LGLiveCellVM.m in Sources */,
+				28C5462E2C2002280021AA71 /* LGEventBus.m in Sources */,
+				28C546022C1FD4140021AA71 /* LGHGroupController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BBH3U98L88;
 				INFOPLIST_FILE = YPPCubeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,6 +531,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BBH3U98L88;
 				INFOPLIST_FILE = YPPCubeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

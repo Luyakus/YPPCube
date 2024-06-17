@@ -1,6 +1,0 @@
-framework module FPSView {
-  umbrella header "FPSView-umbrella.h"
-
-  export *
-  module * { export * }
-}

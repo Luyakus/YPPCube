@@ -5,13 +5,15 @@
 //  Created by DZ0400843 on 2021/9/1.
 //
 #import <Masonry.h>
-#import "LGCubeCell.h"
-#import "LGTableVM.h"
 #import "ViewController.h"
+#import "LGVGroupController.h"
+#import "LGHGroupController.h"
+#import "LGZGroupController.h"
+#import "LGComposeController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+@property (nonatomic, strong) NSArray <NSDictionary <NSString *, Class> *> *demos;
 @property (nonatomic, strong) UITableView *tb;
-@property (nonatomic, strong) LGTableVM *vm;
 
 @end
 
@@ -19,7 +21,6 @@
 
 - (instancetype)init {
     if (self = [super init]) {
-        self.vm = [[LGTableVM alloc] init];
     }
     return self;
 }
@@ -32,39 +33,44 @@
 }
 #pragma mark - 代理
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    LGCellVM *cvm = [self.vm.cvms objectAtIndex:indexPath.row];
-    LGCubeCell *cell = [tableView dequeueReusableCellWithIdentifier:cvm.cellCls];
-    [cell.renderModel render:^(__kindof LGCubeCellRenderModel * _Nonnull model) {
-        model.tableView = tableView;
-        model.indexPath = indexPath;
-        model.data = cvm.data;
-    }];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    cell.textLabel.text = self.demos[indexPath.row].allKeys.firstObject;
     return cell;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.vm.cvms.count;
+    return self.demos.count;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    LGCellVM *cvm = [self.vm.cvms objectAtIndex:indexPath.row];
-    return cvm.cellHeight;
+    return 50;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    UIViewController *vc = [self.demos[indexPath.row].allValues.firstObject new];
+    vc.edgesForExtendedLayout = UIRectEdgeNone;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark - 准备工作
 - (void)setupViews {
     self.title = @"Cube";
-    self.view.backgroundColor = UIColor.greenColor;
+    self.view.backgroundColor = UIColor.whiteColor;
+    self.demos = @[
+        @{@"竖向布局": LGVGroupController.class},
+        @{@"横向布局": LGHGroupController.class},
+        @{@"Z向布局": LGZGroupController.class},
+        @{@"综合布局": LGComposeController.class}
+    ];
     [self.view addSubview:self.tb];
     [self.tb mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
     }];
+    
 }
 
 - (void)registCell {
-    [self.vm.cvms enumerateObjectsUsingBlock:^(LGCellVM * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        [self.tb registerClass:NSClassFromString(obj.cellCls) forCellReuseIdentifier:obj.cellCls];
-    }];
+    [self.tb registerClass:UITableViewCell.class forCellReuseIdentifier:@"cell"];
 }
 
 - (UITableView *)tb {
@@ -72,8 +78,6 @@
     _tb = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
     _tb.delegate = self;
     _tb.dataSource = self;
-    _tb.estimatedRowHeight = 100;
-    _tb.rowHeight = UITableViewAutomaticDimension;
     _tb.showsVerticalScrollIndicator = NO;
     return _tb;
 }

@@ -1,10 +1,10 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FPSView" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/YPPCube"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/YPPCube" "${PODS_CONFIGURATION_BUILD_DIR}/YYKeyboardManager"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FPSView/FPSView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YPPCube/YPPCube.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YPPCube/YPPCube.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YYKeyboardManager/YYKeyboardManager.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/FPSView/FPSView.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/YPPCube/YPPCube.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/FPSView" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/YPPCube"
-OTHER_LDFLAGS = $(inherited) -framework "FPSView" -framework "Foundation" -framework "Masonry" -framework "UIKit" -framework "YPPCube"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/YPPCube/YPPCube.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/YYKeyboardManager/YYKeyboardManager.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/YPPCube" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/YYKeyboardManager"
+OTHER_LDFLAGS = $(inherited) -framework "Foundation" -framework "Masonry" -framework "UIKit" -framework "YPPCube" -framework "YYKeyboardManager"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

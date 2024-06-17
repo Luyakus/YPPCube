@@ -41,6 +41,7 @@
 }
 
 - (void)onDisappear {
+    [super onDisappear];
     [self.cubes enumerateObjectsUsingBlock:^(YPPCube *obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [obj callOnDisappear];
     }];
